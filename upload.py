@@ -56,12 +56,3 @@ def upload(file, metadata):
 
 if __name__ == "__main__":
     pass
-    # video_file = "The case of the missing masterpiece.mp4"
-    # metadata = {
-    #     "title": "The case of the missing masterpiece",
-    #     "description": "#shorts #Story #Adventure #Mystery #random #stories #newworld #askreddit #newask #ask more",
-    #     "tags": ["shorts","random","stories","new","askreddit","stories","randomstoires"],
-    #     "status": "public",  
-    # }
-
-    # upload(video_file, metadata)
