@@ -7,11 +7,6 @@ from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 from upload import upload
 from time import sleep
 
-
-
-YOUTUBE_UPLOAD_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
-YOUTUBE_API_SERVICE_NAME = "youtube"
-YOUTUBE_API_VERSION = "v3"
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 gen_ai.configure(api_key=GOOGLE_API_KEY)
